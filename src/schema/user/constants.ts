@@ -1,0 +1,14 @@
+export const SYSTEM_ROLE_CODES = {
+  HR_ADMIN: 'HR_ADMIN',
+  PAYROLL_OFFICER: 'PAYROLL_OFFICER',
+  MANAGER: 'MANAGER',
+  EMPLOYEE: 'EMPLOYEE',
+  KIOSK: 'KIOSK',
+} as const;
+
+export const USER_STATUS = {
+  INACTIVE: 0,
+  ACTIVE: 1,
+  SUSPENDED: 2,
+  PENDING: 3,
+} as const;
